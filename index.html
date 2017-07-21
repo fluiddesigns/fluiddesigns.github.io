@@ -46,11 +46,11 @@
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
+             <li class="small-logo"><a href="#header"><img src="img/original_fd_logo.jpg" alt="" style="width:50px;height:50px;" ></a></li> 
         	<li><a href="#header">Home</a></li>
             <li><a href="#service">Services</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
-            <!--<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li> -->
-           <!-- <li><a href="#client">Clients</a></li> -->
+            <!-- <li><a href="#client">Clients</a></li> -->
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -60,9 +60,6 @@
 
 
 
-<section class="main-section" id="service"><!--main-section-start-->
-
-</section><!--main-section alabaster-end-->
 
 
 
@@ -80,13 +77,43 @@
         </ul>
        </div> 
         
-	</div>
-    <div class="portfolioContainer wow fadeInUp delay-04s">
-            	<div class=" Portfolio-box printdesign">
-                	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
-                	<h3>Foto Album</h3>
-                    <p>Print Design</p>
+    </div>
+    
+    <!-- MODAL SHOW City Guide -->
+               <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                           <h4 class="modal-title">Web Design</h4>
+                        </div>
+                        <div class="modal-body">
+                           <p><img class="img-responsive" src="img/portfolio/saratoga_small.png" alt="">
+                           <p><img class="img-responsive" src="img/portfolio/saratoga_big.png" alt="">
+                            <b>Our project profiles are linked to the organization profiles. This allows you to read more in depth on a project of interest. Project profiles contain detailed, but useful information on how an organization has implemented a project, so that you too can learn from their work.</b></p>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                     <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+               </div>
+
+
+        <!-- MODAL SHOW City Guide END-->
+
+
+            <div class="portfolioContainer wow fadeInUp delay-04s">
+            	<div class=" Portfolio-box webdesign">
+                	<a data-toggle="modal" href="#projectModal"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
+                	<h3>City Guide</h3>
+                    <p>Web Design </p>
                 </div>
+
+
+                
                 <div class="Portfolio-box webdesign">
                 	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>	
                 	<h3>Luca Theme</h3>
