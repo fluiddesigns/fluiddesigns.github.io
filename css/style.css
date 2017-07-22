@@ -269,17 +269,13 @@ color: #fff;
 	color: #B90808;
 }
 
-.main-nav li a:ctive{ 
-	text-decoration:none;
-	color: #B90808;
-}
 
 .small-logo{ 
-	padding:0 0px;
+	padding:0 32px;
 }
 
 .main-section{
-	padding:90px 0 10px;
+	padding:90px 0 110px;
 }
 
 
