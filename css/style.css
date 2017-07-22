@@ -173,12 +173,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#B90808 !important;
+	color:#232323 !important;
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: #B90808;
+	background: #232323;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -216,6 +216,11 @@ color: #fff;
 }
 
 .main-nav li a:hover{ 
+	text-decoration:none;
+	color: #B90808;
+}
+
+.main-nav li a:ctive{ 
 	text-decoration:none;
 	color: #B90808;
 }
@@ -353,7 +358,7 @@ color: #fff;
 }
 .Portfolio-nav li a:hover{
 	background:#fff;
-	color:#B90808;
+	color:#232323;
 	text-decoration:none;
 }
 
@@ -383,7 +388,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#B90808;
+	background:#232323;
 	color:#fff;
 	text-decoration:none;
 }
