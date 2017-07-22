@@ -102,6 +102,55 @@ h7{
 	text-align:center;
 }
 
+h8{
+	font-size:16px;
+	color:#000000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:700;
+	letter-spacing: 2px;
+	margin:0 0 15px 0;
+	text-align:center;
+}
+
+
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid red;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: #232323;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: #B90808;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
 /* Header Styles
 ---------------------------------*/
 
@@ -259,6 +308,20 @@ color: #fff;
 }
 .main-section.alabaster{
 	background:#fafafa;
+}
+
+
+.icon-fd-mb {
+    background-image: url("img/icons/icon_mb.png");
+    background-position: center center;
+}
+.icon-fd-wd {
+    background-image: url("img/icons/icon_wd.png");
+    background-position: center center;
+}
+.icon-fd-ux {
+    background-image: url("img/icons/icon_ux.png");
+    background-position: center center;
 }
 
 /* Featured Work
