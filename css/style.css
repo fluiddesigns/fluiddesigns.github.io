@@ -302,15 +302,15 @@ color: #fff;
 
 
 .icon-fd-mb {
-    background-image: url("img/icons/icon_mb.png");
+    background-image: url("../img/icons/icon_mb.png");
     background-position: center center;
 }
 .icon-fd-wd {
-    background-image: url("img/icons/icon_wd.png");
+    background-image: url("../img/icons/icon_wd.png");
     background-position: center center;
 }
 .icon-fd-ux {
-    background-image: url("img/icons/icon_ux.png");
+    background-image: url("../img/icons/icon_ux.png");
     background-position: center center;
 }
 
