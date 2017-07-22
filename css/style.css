@@ -92,30 +92,42 @@ p{
 	margin:0;
 }
 
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:700;
+	letter-spacing: 2px;
+	margin:0 0 15px 0;
+	text-align:center;
+}
+
 /* Header Styles
 ---------------------------------*/
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	# background:url(../img/pw_maze_black_2X.png) left top repeat;
+	padding:260px 0;
 }
 .logo{
 	width:130px;
-	margin:0 auto 35px;
+	margin:0 auto 10px;
 }
 .header h1{
-	font-family: 'Montserrat',sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size:50px;
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color:#000;
 }
 
+
 .we-create{
-	padding:0;
-	margin:35px 0 55px;
+	padding:100;
+	margin:0 0 22px 0 ;
+
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -145,7 +157,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#B90808;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -161,7 +173,7 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:#B90808 !important;
 	background:#fff;
 }
 
