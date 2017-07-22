@@ -563,7 +563,8 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:85px 0;
+	padding: 85px 0;
+	align-items: center;
 }
 .main-section.team h6{
 	margin-bottom:40px;
